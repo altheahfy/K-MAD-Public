@@ -147,15 +147,47 @@ Execution / Decision
 
 ### Strategic Matrix
 
+![Strategic Matrix current production UI](../assets/system-ui/A1-strategic-matrix.png)
+
+*Current production UI。Matrix cellを選択すると右ペインに既存の詳細が表示され、Current gapsはMatrix下部に分離して表示される。一部のoperational contentは日本語である。これはsystem orientation用であり、historical adversarial proofまたはprimary technical evidenceの一部ではない。*
+
 Repository / product stateをstrategy上のmulti-axis gapとして把握し、次のOutcome候補とpriorityを考察する。
 
 ### Cognitive Update Panel
+
+![Cognitive Update Panel current production UI](../assets/system-ui/A2-cognitive-update-panel.png)
+
+*`Outcome / Route / Scope / Deferred`を固定するcurrent production UI。一部のoperational contentは日本語である。system orientation専用であり、historical adversarial proofまたはprimary technical evidenceの一部ではない。*
 
 Strategic Matrixがdevelopment全体のstateとGapを示すのに対し、Cognitive Update Panelは、その中から現在取り組むと決定したCurrent Outcomeを明示的に固定する。`Outcome / Route / Scope / Deferred`を中心に、AIとOperatorが「今どこへ向かっているか」を短距離で共有できるようにするsurfaceである。Layer / target / revision / actor / origin等のidentity metadataもread-onlyで表示する。
 
 ### Execution / Decision
 
+<details>
+<summary>Execution / Decision 全体表示</summary>
+
+![Execution / Decision current production UI](../assets/system-ui/A3-execution-decision-overview.png)
+
+*System orientation用のcurrent production UI。一部のoperational contentは日本語である。historical adversarial proofまたはprimary technical evidenceの一部ではない。*
+
+</details>
+
 Current Outcomeに対するPlan、Acceptance Criteria、Test Plan、implementation result、executed tests、independent checks、4Gate、Operator decisions、Completion、server-side admission enforcementを扱う実行・検証・承認surfaceである。今回のmain adversarial detectionは、このsurface内の4Gateの1つである`SRR 4A / Standing Core`によるものだった。
+
+#### 4GateSpine
+
+4GateSpineはExecution / Decision surfaceの一部である。以下はsystem orientation用のcurrent production UIであり、historical adversarial proofまたはprimary technical evidenceではない。
+
+<details>
+<summary>Governance / Behavioral / Invariant Kernel 詳細</summary>
+
+![4GateSpine deterministic-side current production UI](../assets/system-ui/A4-four-gate-spine-deterministic.png)
+
+</details>
+
+![4GateSpine semantic-side current production UI](../assets/system-ui/A5-four-gate-spine-semantic.png)
+
+*Current production UIにおけるpacket-specific stateは、`Standing Core = REVIEW_REQUIRED`、`Outcome-specific = REVIEW_REQUIRED`、`Verification closure = NOT_ESTABLISHED`である。これは当該packetに対するsemantic reviewが未実行であることを示すcurrent stateであり、`FAIL`ではない。system orientation専用であり、historical adversarial proofまたはprimary technical evidenceの一部ではない。*
 
 ## Limitations
 

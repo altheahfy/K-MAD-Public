@@ -151,15 +151,47 @@ Plan / execution / verification / Gates / Completion for that Outcome
 
 ### Strategic Matrix
 
+![Strategic Matrix current production UI](../assets/system-ui/A1-strategic-matrix.png)
+
+*Current production UI. Selecting a Matrix cell exposes its existing detail in the right pane; current gaps appear separately below the Matrix. Some operational content is in Japanese. This is a system-orientation view, not part of the historical adversarial proof or its primary technical evidence.*
+
 This surface represents repository or product state as multi-axis strategic gaps and supports consideration of priorities and candidates for the next Outcome.
 
 ### Cognitive Update Panel
+
+![Cognitive Update Panel current production UI](../assets/system-ui/A2-cognitive-update-panel.png)
+
+*Current production UI for fixing `Outcome / Route / Scope / Deferred`. Some operational content is in Japanese. System orientation only; not part of the historical adversarial proof or its primary technical evidence.*
 
 Where the Strategic Matrix shows overall development state and gaps, the Cognitive Update Panel explicitly fixes the Current Outcome selected from that broader state. Centered on `Outcome / Route / Scope / Deferred`, it gives the AI and Operator a short path to a shared answer to “where are we going now?” Identity metadata such as Layer, target, revision, actor, and origin is also displayed read-only.
 
 ### Execution / Decision
 
+<details>
+<summary>Full Execution / Decision view</summary>
+
+![Execution / Decision current production UI](../assets/system-ui/A3-execution-decision-overview.png)
+
+*Current production UI shown for system orientation. Some operational content is in Japanese. This is not part of the historical adversarial proof or its primary technical evidence.*
+
+</details>
+
 This is the execution, verification, and approval surface for the Current Outcome. It handles the Plan, Acceptance Criteria, Test Plan, implementation result, executed tests, independent checks, 4Gate results, Operator decisions, Completion, and server-side admission enforcement. The main adversarial detection described here occurred in one of those Gates: `SRR 4A / Standing Core`.
+
+#### 4GateSpine
+
+The 4GateSpine is part of the Execution / Decision surface. The views below show the current production UI for system orientation, not the historical adversarial proof or primary technical evidence.
+
+<details>
+<summary>Governance / Behavioral / Invariant Kernel detail</summary>
+
+![4GateSpine deterministic-side current production UI](../assets/system-ui/A4-four-gate-spine-deterministic.png)
+
+</details>
+
+![4GateSpine semantic-side current production UI](../assets/system-ui/A5-four-gate-spine-semantic.png)
+
+*Current production UI, showing the packet-specific current state: `Standing Core = REVIEW_REQUIRED`, `Outcome-specific = REVIEW_REQUIRED`, and `Verification closure = NOT_ESTABLISHED`. These values reflect semantic reviews that have not yet been executed for this packet; they are not `FAIL` results. System orientation only, not the historical adversarial proof or primary technical evidence.*
 
 ## Limitations
 
