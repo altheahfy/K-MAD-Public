@@ -1,6 +1,6 @@
 # Provenance manifest
 
-Status: local Stage 1 public-repository candidate. The private `AI_WORKSPACE` repository remains the source of truth. Repository-relative private source paths are recorded without exposing an absolute machine path.
+Status: public Stage 1 publication and evidence repository. The private `AI_WORKSPACE` repository remains the source of truth. Repository-relative private source paths are recorded without exposing an absolute machine path.
 
 ## Preservation references
 
@@ -37,8 +37,8 @@ These refs are provenance metadata. They are not public links and do not imply r
 
 | Public path | Source basis | Source SHA-256 | Public SHA-256 | Export status |
 |---|---|---|---|---|
-| `README.md` | Generated for this candidate | N/A | `28b7e1fffa0a8eaea6263f4151c6363342f03f6e0ff5599f619d7cd84a3e6d30` | PUBLIC_REQUIRED |
-| `publication/stage1.en.md` | English publication copy derived semantically from `publication/stage1.md` | `d26d9ec2f12a131a833b7481fe9d4d979647ea22d3fb7445af1176488a9373c1` | `f1aff8786ff5a50dab319912aa0839fe143836e4d13cc9b1423ecace76783ed8` | PUBLIC_REQUIRED |
+| `README.md` | Generated for this candidate | N/A | `1675dcbf357a8b353b6b13d9af6f64d006a5c304af7458e6c5c11e304e198fa1` | PUBLIC_REQUIRED |
+| `publication/stage1.en.md` | English publication copy derived semantically from `publication/stage1.md` | `d26d9ec2f12a131a833b7481fe9d4d979647ea22d3fb7445af1176488a9373c1` | `f787c2271d39f487357b574a1c8f13bbec3f690cecfde946f3e37e2f895b220d` | PUBLIC_REQUIRED |
 | `evidence/EVIDENCE_INDEX.md` | Generated claim-to-proof routing | N/A | `2295b95b55222b1f071ef717de889833d5ba3573b27ed6fceca193681924471c` | PUBLIC_REQUIRED |
 | `evidence/procedure/PROCEDURE_INDEX.md` | Generated from selected procedure responsibilities | N/A | `d1593266f86119af8422877fa02ff20289ad5ce82f16dc788991b20fa3a58231` | PUBLIC_SUPPORTING |
 | `evidence/secondary/SECONDARY_EVIDENCE_INDEX.md` | Generated secondary routing | N/A | `248a7d2d4480aea9809ef0a2864aa35b65a50307024283c2b60429e38a34d3a0` | PUBLIC_SUPPORTING |

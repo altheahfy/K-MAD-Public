@@ -35,7 +35,7 @@ Before the target was switched to the adversarial case, the same Standing Core e
 
 The main adversarial proof is not a fixture on the current production `main` branch. Its original preservation references in the private source of truth are commit `381a84507871cc9d908de0841225afa7b6681f11`, branch `codex/concept-drift-first-adversarial-proof`, and tag `concept-drift-prevention-first-adversarial-proof`.
 
-These private references are provenance metadata; they do not imply that readers can access the private repository. The inspectable evidence is the artifact set exported into this public-repository candidate. The historical adversarial proof and current production state are distinct.
+These private references are provenance metadata; they do not imply that readers can access the private repository. The inspectable evidence is the artifact set exported into this public repository. The historical adversarial proof and current production state are distinct.
 
 ### Primary technical proof
 
