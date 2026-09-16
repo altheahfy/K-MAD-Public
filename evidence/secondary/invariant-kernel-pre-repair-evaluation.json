@@ -1,0 +1,83 @@
+{
+  "capturedAtUtc": "2026-09-11T06:59:35.4729864Z",
+  "outcome": "outcome-completion-admission-outcome-specific-4gate-clearance@1",
+  "contract": "execution-contract-completion-admission-outcome-specific-4gate-clearance@2",
+  "gates": [
+    {
+      "gate": "Governance Gate",
+      "result": "PASS"
+    },
+    {
+      "gate": "Behavioral Verification (pytest)",
+      "result": "PASS"
+    },
+    {
+      "gate": "Invariant Kernel",
+      "result": "FAIL"
+    },
+    {
+      "gate": "SRR",
+      "result": "REVIEW_REQUIRED"
+    }
+  ],
+  "kernelChecks": [
+    {
+      "source": "Operator-fixed Kernel binding e19bb93c4dd70a5f61563690247d1b23edd7b27576fe263d8ee1387cbd94260b",
+      "observed": "Exact binding text supplied as reconciliation input and never executed",
+      "reason": null
+    },
+    {
+      "source": "Existing runtime-owned function declarations Set-CurrentPlanDecision, Assert-CurrentExecutionTarget",
+      "observed": "bindingPresent=False; concreteOwnerPresent=True; repositoryReality=EXISTING; protectedBoundary=consequential writer/admission; rejected writes are covered by canonical non-mutation runtime suites",
+      "reason": "Fixed Kernel binding could not be reconciled to exact concrete function declarations."
+    },
+    {
+      "source": "Existing runtime-owned function declarations Assert-CurrentImplementationBasisTarget, Set-PostImplementationResult",
+      "observed": "bindingPresent=False; concreteOwnerPresent=True; repositoryReality=EXISTING; protectedBoundary=consequential writer/admission; rejected writes are covered by canonical non-mutation runtime suites",
+      "reason": "Fixed Kernel binding could not be reconciled to exact concrete function declarations."
+    },
+    {
+      "source": "Existing runtime-owned function declarations Assert-CurrentExecutionTarget, Test-ExecutionTuple",
+      "observed": "bindingPresent=False; concreteOwnerPresent=True; repositoryReality=EXISTING; protectedBoundary=consequential writer/admission; rejected writes are covered by canonical non-mutation runtime suites",
+      "reason": "Fixed Kernel binding could not be reconciled to exact concrete function declarations."
+    },
+    {
+      "source": "Existing runtime-owned function declarations Set-CurrentPlanDecision, Set-CurrentCompletionDecision",
+      "observed": "bindingPresent=False; concreteOwnerPresent=True; repositoryReality=EXISTING; protectedBoundary=consequential writer/admission; rejected writes are covered by canonical non-mutation runtime suites",
+      "reason": "Fixed Kernel binding could not be reconciled to exact concrete function declarations."
+    }
+  ],
+  "srrReason": "Retained SRR review not applicable: Retained SRR review is stale, foreign, or tuple/basis/observation-mismatched.",
+  "clearanceStatus": "NOT_CLEAR",
+  "clearanceReason": "One or more required Outcome-specific responsibilities are non-clear.",
+  "clearanceResponsibilities": {
+    "governance": {
+      "required": true,
+      "basisRequirement": "REQUIRED",
+      "result": "PASS",
+      "clear": true,
+      "reason": "Exact fixed-basis responsibility is PASS."
+    },
+    "behavioral": {
+      "required": true,
+      "basisRequirement": "REQUIRED",
+      "result": "PASS",
+      "clear": true,
+      "reason": "Exact fixed-basis responsibility is PASS."
+    },
+    "srr": {
+      "required": true,
+      "basisRequirement": "REQUIRED",
+      "result": "REVIEW_REQUIRED",
+      "clear": false,
+      "reason": "Required responsibility is not PASS; N/A cannot replace required evidence."
+    },
+    "kernelBinding": {
+      "required": true,
+      "basisRequirement": "REQUIRED",
+      "result": "FAIL",
+      "clear": false,
+      "reason": "Required responsibility is not PASS; N/A cannot replace required evidence."
+    }
+  }
+}

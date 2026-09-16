@@ -1,0 +1,15 @@
+{
+  "source": "Exact excerpt from the private Standing Core packet canonicalObservation field",
+  "before": {
+    "data/current-outcome.json": "8C03600B85AB22D04133CB9315EFFC9C46BDECFC57A1C5434B71D5FEDB4DD3B3",
+    "data/execution-contract.json": "2F0D2D057D088DBAAB76E95D1B81E53C3B0D8236EE460B0A701F5ECF322A60A0",
+    "data/level1-assessments.json": "82B120919301B34D6A589CF48C7B0AFCE6B02E4C4FCCD8E269D59FD14237FE0D"
+  },
+  "after": {
+    "data/current-outcome.json": "8C03600B85AB22D04133CB9315EFFC9C46BDECFC57A1C5434B71D5FEDB4DD3B3",
+    "data/execution-contract.json": "2F0D2D057D088DBAAB76E95D1B81E53C3B0D8236EE460B0A701F5ECF322A60A0",
+    "data/level1-assessments.json": "82B120919301B34D6A589CF48C7B0AFCE6B02E4C4FCCD8E269D59FD14237FE0D"
+  },
+  "mutationCountBefore": 0,
+  "mutationCountAfter": 0
+}
