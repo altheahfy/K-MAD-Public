@@ -206,3 +206,13 @@ The 4GateSpine is part of the Execution / Decision surface. The views below show
 The technical milestone established here is narrower:
 
 > Against an explicitly defined development policy and verification basis, the system observed repository reality, detected a semantic violation, and connected that `FAIL` to rejection of a state transition.
+
+## Historical context
+
+Earlier public materials documenting previous stages of K-MAD are preserved here:
+
+- [Earlier engineer-oriented article](https://altheahfy.github.io/k-mad-en-engineers/)
+- [Earlier non-engineer-oriented article](https://altheahfy.github.io/k-mad-en-non-engineers/)
+- [AI_Controller legacy repository](https://github.com/altheahfy/AI_Controller)
+
+These materials reflect K-MAD as it existed at those earlier stages and should not be read as the current architecture or current Stage 1 implementation.

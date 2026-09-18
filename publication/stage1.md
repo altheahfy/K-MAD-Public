@@ -202,3 +202,13 @@ Current Outcomeに対するPlan、Acceptance Criteria、Test Plan、implementati
 今回確認できたtechnical milestoneは、より限定的なものである。
 
 > 明示的に定義されたdevelopment policy / verification basisに対してRepository realityを観測し、semantic violationを検出し、その`FAIL`をstate transition rejectionへ接続できた。
+
+## 過去資料
+
+K-MADの過去段階を記録した公開資料は、履歴として以下に保存している。
+
+- [旧エンジニア向け記事](https://altheahfy.github.io/k-mad-jp-engineers/)
+- [旧非エンジニア向け記事](https://altheahfy.github.io/k-mad-jp-non-engineers/)
+- [AI_Controller legacy repository](https://github.com/altheahfy/AI_Controller)
+
+これらは各時点におけるK-MADの考え方・実装を記録したものであり、現在のアーキテクチャやStage 1実装を示すものではない。

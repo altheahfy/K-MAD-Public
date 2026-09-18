@@ -27,7 +27,7 @@ These refs are provenance metadata. They are not public links and do not imply r
 
 | Public path | Source private path / basis | Source preservation ref | Source SHA-256 | Public SHA-256 | Export status | Notes |
 |---|---|---|---|---|---|---|
-| `publication/stage1.md` | `K-MAD PR Strategy/20260912HN投稿2回目戦略/リンク先MD文案.md` | private `main` working publication draft | `8e7904ea55c0891676af628b7cc183e91882a7e6a969f3688a617d88e343f4d6` | `5e02bb2081c66de9060375ccecfae70c2f2febada3ad7695b84ed020e607f2f1` | PUBLIC_REQUIRED | Public copy; Evidence links and private-ref wording changed only. |
+| `publication/stage1.md` | `K-MAD PR Strategy/20260912HN投稿2回目戦略/リンク先MD文案.md` | private `main` working publication draft | `8e7904ea55c0891676af628b7cc183e91882a7e6a969f3688a617d88e343f4d6` | `7aa14d5b1a46ceb4e3e49cb063595721195c453d04e1df7cd6c72cdc379e8a32` | PUBLIC_REQUIRED | Public copy; Evidence links, private-ref wording, and historical-context routing differ. |
 | `assets/system-ui/A1-strategic-matrix.png` | Current production `AI_WORKSPACE` Strategic Matrix UI | private `main` at capture | N/A (direct UI capture) | `ec581faf72e6c4968a8207b1a98ad97d63ccffe67eef513d1ef9d81018c13a1c` | PUBLIC_ORIENTATION | Current system orientation asset; not historical adversarial proof or primary technical evidence. |
 | `assets/system-ui/A2-cognitive-update-panel.png` | Current production `AI_WORKSPACE` Cognitive Update Panel UI | private `main` at capture | N/A (direct UI capture) | `0f1b36f745b597d97448bb9d70fe6857fb45abe4865d262e99bc4a41951407be` | PUBLIC_ORIENTATION | Current system orientation asset; not historical adversarial proof or primary technical evidence. |
 | `assets/system-ui/A3-execution-decision-overview.png` | Current production `AI_WORKSPACE` Execution / Decision UI | private `main` at capture | N/A (direct UI capture) | `22edf62d1e065efa2c057ec69a8fb88e5d9a18dc0c1e0a2acdc34d1f8dff7f53` | PUBLIC_ORIENTATION | Current system orientation asset; not historical adversarial proof or primary technical evidence. |
@@ -49,7 +49,7 @@ These refs are provenance metadata. They are not public links and do not imply r
 | Public path | Source basis | Source SHA-256 | Public SHA-256 | Export status |
 |---|---|---|---|---|
 | `README.md` | Generated for this candidate | N/A | `1675dcbf357a8b353b6b13d9af6f64d006a5c304af7458e6c5c11e304e198fa1` | PUBLIC_REQUIRED |
-| `publication/stage1.en.md` | English publication copy derived semantically from `publication/stage1.md` | `5e02bb2081c66de9060375ccecfae70c2f2febada3ad7695b84ed020e607f2f1` | `f41ca1ecf65fa54b40801af5bba5b9de8cd9e9f75c131b09178a52faa50a2f11` | PUBLIC_REQUIRED |
+| `publication/stage1.en.md` | English publication copy derived semantically from `publication/stage1.md` | `7aa14d5b1a46ceb4e3e49cb063595721195c453d04e1df7cd6c72cdc379e8a32` | `624a760564b139aa2443c3f250db2e7bc27578692b1ef284bcce5b2c8c6c51d2` | PUBLIC_REQUIRED |
 | `evidence/EVIDENCE_INDEX.md` | Generated claim-to-proof routing | N/A | `2295b95b55222b1f071ef717de889833d5ba3573b27ed6fceca193681924471c` | PUBLIC_REQUIRED |
 | `evidence/procedure/PROCEDURE_INDEX.md` | Generated from selected procedure responsibilities | N/A | `d1593266f86119af8422877fa02ff20289ad5ce82f16dc788991b20fa3a58231` | PUBLIC_SUPPORTING |
 | `evidence/secondary/SECONDARY_EVIDENCE_INDEX.md` | Generated secondary routing | N/A | `248a7d2d4480aea9809ef0a2864aa35b65a50307024283c2b60429e38a34d3a0` | PUBLIC_SUPPORTING |
